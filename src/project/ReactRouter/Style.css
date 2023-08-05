@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+	font-family: 'Bree Serif', serif;
+}
+#pagelogo1{
+    height: 8vh;
+    width: 21vh;
+    margin-top: 1px;
+    margin-right: -55px;
+    margin-left: -193vh;
+}
+.nav-link{
+    font-size: 20px;
+}
+#home{
+   position: absolute;
+   margin-top: 1vh;
+   margin-left: -68vh;
+}
+#about{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: -58vh;
+}
+#service{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: -16vh;
+}
+#trip{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: -29vh;
+}
+#contact{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: -44vh;
+}
+
+/* NAVBAR */
+
+
+#f1{
+    margin-left: 86vh;
+    font-size: 44px;
+    margin-top: -12px;
+    color: royalblue;
+    position: absolute;
+}
+
+#f2{
+    height: 44vh;
+    width: 71vh;
+    margin-top: -166px;
+    border-radius: 22px;
+    margin-left: 4px;
+}
+
+
+#carousel{
+    height: 44vh;
+    width: 75vh;
+    margin-top: 7px;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+.f3{
+    margin-left: 79vh;
+    margin-top: -43vh;
+}
+.f4{
+    margin-left: 119vh;
+    margin-top: -43vh;
+}
+.f5{
+    margin-left: 159vh;
+    margin-top: -43vh;
+}
+#f6{
+    font-size: 3vh;
+    margin-top: 19px;
+    margin-left: 88px;
+}
+
+.A{
+    margin-left: 86px;
+    margin-top: 6px;
+}
+#f10{
+    border-radius: 20px;
+}
+

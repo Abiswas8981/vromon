@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* /NavBar Starts Here ------------------------------------------------------------------------------------------/ */
+.nav-logo{
+  width: 13rem;
+    height: 4.5rem;
+    margin-left: -22rem;
+    position: absolute;
+    margin-top: rem;
+}
+#nav-f1{
+ width: 100%;
+ height: rem; 
+}
+.navbar {
+  background-color:#f7f7f7;
+  box-shadow:  0 0 15px rgba(0, 0, 0, 0.5); 
+  padding: rem;
+  width: 100%;
+  height: 5rem;
+  
+  
+}
+.nav-item{
+  margin-left: 1rem;
+}
+.container-fluid{
+  margin-left: 20rem;
+  font-size: 1.5rem;
+}
+.nav-link{
+  margin-left: rem;
+  color: #007bff;
+}
+
+#home{
+  margin-left: 4rem;
+}
+.container-fluid a:hover {
+  color: #ff8c00;
+}
+
+.nav .active {
+  color: #ff8c00;
+}
+.dropdown-header{
+  color: #ff8c00;
+  font-size: 1rem;
+}
+#drop-1{
+  
+
+}
+#drop-2{
+  margin-left: -12rem;
+  /* margin-top: 12.5rem; */
+  
+}
+#drop-3{
+  margin-left: 19rem;
+  margin-top: -14.5rem;
+}
+.login-button{
+  width: 4.5rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  background-color: #007bff;
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.signup-button{
+  width: 5.5rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    background-color: #007bff;
+    color: white;
+    margin-left: .4rem;
+    font-size: 1.2rem;
+}
+
+
+
+/* /NavBar Ends Here ------------------------------------------------------------------------------------------/ */
+
+
+/* /Home Page Starts Here ------------------------------------------------------------------------------------------/ */
+
+
+.homepage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: px;
+}
+
+.title {
+  font-size: 4rem;
+    font-weight: bold;
+    font-family: -webkit-body;
+    color: coral;
+    text-align: center;
+    margin-left: rem;;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+  margin-bottom: -2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3rem;
+  margin-left: -10rem;
+}
+/* Homecerousal start  */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33rem;
+  width: 123%;
+  margin-left: -8rem;
+  
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 5, 5, 0.2);
+;
+}
+
+.card-body {
+  padding: 5rem;
+}
+
+.card-title {
+  color: coral;
+  font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-family: emoji;
+   
+}
+.card-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: -3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 2rem;
+  
+}
+
+.text-body-secondary {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+/* HomeCerousal End  */
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.option-card {
+  text-align: center;
+}
+
+.option-image {
+  width: 284px;
+  height: 182px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+  margin-top: 1rem
+}
+.option-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.option-description {
+  font-size: 16px;
+  color: #666;
+}
+
+.explore-options {
+  display: flex;
+}
+.option-card1,
+.option-card2,
+.option-card3,
+.option-card4,
+.option-card5 {
+  flex: 1;
+  margin: -8rem;
+  margin-right: 10rem;
+  padding: .4rem;
+  background-color: #f2f2f2;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  width: 30%;
+  
+
+}
+/* .option-card1 {
+  flex: 1;
+  margin: 20rem;
+  margin-right: 20rem;
+  padding: .4rem;
+  background-color: #f2f2f2;
+  margin-top: 5rem;
+  border-radius: 1rem;
+
+} */
+
+
+.coupon1 {
+  width: 34rem;
+    margin-left: .5rem;
+    box-shadow: 0 5px 25px 2px rgba(0, 5, 5, 0.20);
+}
+
+.coupon2 {
+  width: 28rem;
+    margin-left: 35.5rem;
+    box-shadow: 0 5px 25px 2px rgba(0, 5, 5, 0.20);
+    margin-top: -17rem;
+}
+#home-f2{
+  margin-left: 27rem;
+    margin-top: 1rem;
+    font-family: unset;
+}
+#home-f3{
+  margin-top: 1rem;
+  color: coral;
+  box-shadow: 0 0 10px #c3690380;
+  width: 125%;
+  margin-left: -8rem;
+  background-color: antiquewhite ;
+}
+#home-f6{
+  margin-top: 1rem;
+  color: coral;
+  box-shadow: 0 0 10px #c3690380;
+  width: 126%;
+  margin-left: -9rem;
+  background-color: antiquewhite ;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+#home-f4{
+  
+  margin-top: 4rem;
+  color: coral;
+}
+.home-mulcar{
+  width: 112rem;
+  margin-left: -21rem;
+}
+
+.home-card1{
+  width: 16rem;
+    margin-left: -8rem;
+    margin-top: 4rem;
+    background-color: rgb(242, 244, 248);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.home-card2{
+  width: 16rem;
+    margin-top: -30rem;
+    margin-left: 10rem;
+    background-color: rgb(242, 244, 248);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.home-card3{
+  width: 16rem;
+    margin-left: 28rem;
+    margin-top: -30rem;
+    background-color: rgb(242, 244, 248);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.home-card4{
+  width: 16rem;
+    margin-top: -30rem;
+    margin-left: 46rem;
+    background-color: rgb(242, 244, 248);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.home-card5{
+  width: 16rem;
+    margin-top: -30rem;
+    margin-left: 63rem;
+    background-color: rgb(242, 244, 248);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#hotel-card-f2{
+  width: 120%;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: rgb(189, 192, 232);
+    margin-left: -7rem;
+}
+
+
+/* /Home Page Ends Here ---------------------------------------------------------
+
+/*  /About Page Start Here ------------------------------------------------------- */
+.about-us {
+  padding: 40px;
+}
+
+.about-us-title {
+  font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 23px;
+    color: coral;
+    font-family: serif;
+}
+
+.about-us-description {
+  font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+    font-family: ui-monospace;
+    width: 88rem;
+    margin-left: 11rem;
+    text-align: justify;
+    width: 75%;
+}
+
+.about-us-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  display: inline-block;
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.card-link:hover {
+  background-color: #007bff;
+}
+#about-f1{
+  color: rgb(248, 114, 8);
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-family: serif;
+  margin-left: rem;
+}
+.about-p {
+  font-size: 1.4rem;
+}
+
+#list2 {
+  margin-left: 6rem;
+  margin-top: 1rem;
+  width: 18rem;
+}
+
+/*  /About Page Ends Here ------------------------------------------------ */
+
+/*  /ContactUs Page Start Here ------------------------------------------- */
+.contact-img{
+  width: 100%;
+    height: 35rem;
+}
+.contact-title h1{
+  margin-top: -10rem;
+    position: absolute;
+    margin-left: 15rem;
+    font-family: revert;
+    font-size: 3.5rem;
+    color: white;
+}
+.contact-title p{
+  margin-top: -5rem;
+    position: absolute;
+    width: 40rem;
+    margin-left: 30rem;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.contact-us {
+  padding: 3rem;
+    background-color: hsl(180, 20%, 99%);
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgb(189, 192, 232);
+    width: 45%;
+    margin-left: 49rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+#contact-f2{
+  margin-left: 10rem;
+    margin-top: -3.5rem;
+    font-size: 2.5rem;
+    font-family: revert; 
+}
+#contact-logo{
+  width: 9rem;
+  margin-top: -7rem;
+  margin-left: 1rem;
+}
+.contact-us h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-us-description {
+  font-size: 18px;
+    margin-bottom: 14px;
+    color: #4d4d4d;
+    margin-top: -3rem;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+.form-group {
+  display: grid;
+  gap: 5px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 100%;
+  color: #333;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  background-color: #fff;
+}
+
+.error-message {
+  font-size: 14px;
+  color: #dc3545;
+  margin-top: 5px;
+}
+.contact-map{
+  margin-top: -59rem;
+    margin-left: 4rem;
+    position: absolute;
+    box-shadow: 0 0 5px rgba(8, 10, 8, 0.5);
+   
+
+}
+.contact-info{
+  margin-bottom: 38rem;
+  margin-top: -26rem;
+  margin-left: .5rem;
+  font-size: 2rem;
+  width: 36rem;
+  position: absolute;
+  box-shadow: rgb(189, 192, 232); 
+}
+#contact-f9{
+  color: hsl(240, 82%, 26%);
+  margin-left: 90vh;
+    margin-top: -7vh;
+    font-size: 31px;
+}
+
+
+/*  /ContactUs Page Ends Here ------------------------------------------------- */
+
+
+/*  /Trip Page Start Here ----------------------------------------------------- */
+
+#trip-f1{
+  font-size: 4rem;
+    font-weight: bold;
+    font-family: -webkit-body;
+    color: coral;
+    text-align: center;
+    margin-top: 1rem;
+    
+
+
+}
+#trip-f2{
+  width: 25%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    margin-left: 68rem;
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+    box-shadow: rgb(122, 128, 224);
+    background-color: #e5e7ea;
+}
+
+.trip-container {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  
+}
+
+.trip-card {
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-sizing: border-box;
+  
+}
+
+.trip-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: coral;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.btn{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 2rem;
+}
+.btn-primary{
+  background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Trip Carousel start  */
+.carousel {
+  margin-top: 2rem;
+}
+
+.Mccard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: .6rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  /* width: 100%; */
+ 
+}
+
+.Mccard img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.Mccard .card-body {
+  width: 75%;
+}
+
+.Mccard .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.Mccard .card-text {
+  font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    text-align: initial;
+    width: 14rem;
+    margin-inline: 0rem;
+}
+#Mc-btn{
+  margin-left: -1rem;
+}
+.card-title{
+  font-size: 2.2rem;
+}
+.Mccard .btn {
+  width: 100%;
+}
+#wishlist{
+  margin-top: -434rem;
+    position: absolute;
+    margin-left: 104rem;
+    width: 18rem;
+    
+}
+#wishlist-remove{
+  margin-left: 4rem ;
+  position: relative;
+  background-color: #1e90ff;
+   color:white;
+   border-radius: .5rem;
+}
+/* Trip Carousel end ------------------------------------------------ */
+
+
+/*  /Trip Page Ends Here -------------------------------------------- */
+
+/*  /Footer Page start Here ------------------------------------------- */
+.k{
+  width: 10rem;
+    margin-bottom: -10rem;
+    margin-left: -29rem;
+}
+.l{
+  margin-bottom: -6rem;
+    width: 10rem;
+    margin-left: -9rem;
+}
+.m{
+  width: 7rem;
+  margin-bottom: -2.5rem;
+  margin-left: 9rem;
+}
+.n{
+  width: 9rem;
+    margin-bottom: -1rem;
+    margin-left: 26rem;
+}
+.footer-logo{
+  width: 8rem;
+    margin-left: -3rem;
+    margin-top: rem;
+}
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-f5 {
+  color: snow;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+.footer-text{
+  color: coral;
+  font-family: revert;
+  margin-left: -4rem;
+}
+.footer-p{
+  margin-top: 0px;
+    margin-bottom: 3rem;
+    color: #f2f2f2;
+    width: 19rem;
+    text-align: justify;
+}
+.col-md-4{
+  margin-top: 5rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-li {
+  margin-bottom: -1rem;
+    margin-left: 8rem;
+    margin-top: 1.8rem;
+}
+.footer-lii{
+  margin-left: -5rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+.footer-liii{
+  margin-left: 20rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3974da;
+}
+#footer-f9{
+  
+  margin-left: 5rem;
+  margin-bottom: 6rem;
+  margin-top: -5rem;
+}
+#footer-f9 a {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+#footer-f9 a i {
+  color: white;
+}
+
+#footer-f9 a i.bi-whatsapp {
+  font-size: 2.5rem;
+  
+}
+
+#footer-f9 a i.bi-facebook {
+  font-size: 2.5rem;
+}
+
+#footer-f9 a i.bi-instagram {
+  font-size: 2.5rem;
+}
+
+#footer-f9 a i.bi-youtube {
+  font-size: 2.5rem;
+}
+.footer-q{
+  margin-left: 91rem;
+  margin-top: -25rem;
+  height: 19rem;
+}
+/*  /Footer Page End Here ------------------------------------------- */
+
+/*  /Privacy Page start Here ------------------------------------------- */
+.privacy-img{
+  width: 90rem;
+}
+#privacy-h1{
+  position: absolute;
+  margin-top: -18rem;
+  margin-left: 19rem;
+  font-size: 4rem;
+  font-family: serif;
+}
+.privacy-link{
+  margin-left:45%;
+  font-size: 2rem;
+}
+.privacy-head{
+  margin-left: 8rem;
+  color: coral;
+}
+.privacy-p{
+  margin-left: 8rem;
+    font-size: 1.5rem;
+    font-family: none;
+    width: 108rem;
+}
+/* /Privacy Page End Here ------------------------------------------- */ 
+/* term & Covdition Page Start Here ---------------------------------- */
+
+#term-h1{
+  position: absolute;
+  margin-top: -23rem;
+  margin-left: 22rem;
+  font-size: 4rem;
+  font-family: serif;
+}
+/* term & Covdition Page End  Here ---------------------------------- */
+
+/* Feedback Page Start Here ---------------------------------- */
+.feedback-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-left: -5erm;
+}
+
+input[type="text1"],
+input[type="email1"],
+select {
+  width: 90%;
+  height: 4rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+#feed-card{
+  width: 50%;
+}
+.feed-text{
+  width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.feed-lebal{
+  margin-left: 2rem;
+}
+#feed-img{
+  width: 100%;
+  height: 30rem;
+  
+}
+.feed-h1{
+  margin-left: 10rem;
+  color: coral;
+}
+#feed-button{
+  width: 10rem;
+}
+/* Feedback Page End Here --------------------------------------- */
+/* kashmir---- Page Start Here ---------------------------------- */
+.kas-img1{
+  width: 6rem;
+    margin-left: 72rem;
+    margin-top: 4rem;
+}
+.kas-li1{
+  margin-top: -23rem;
+  position: absolute;
+  margin-left: -7rem;
+}
+.kas-img2{
+  width: 9rem;
+  margin-left: 64rem;
+  margin-top: -5rem;
+}
+.kas-li2{
+  margin-top: -25rem;
+  position: absolute;
+}
+.kas-img3{
+  width: 6rem;
+    margin-left: 84rem;
+    margin-left: 78rem;
+}
+.kas-li3{
+  margin-top: -9rem;
+    position: absolute;
+    margin-left: -13rem;
+  
+}
+.kas-car{
+  margin-top: 4rem;
+    width: 54rem;
+    margin-left: 9rem;
+}
+.kas-text{
+  width: 70rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: -10rem;
+}
+#kas-p1{
+  font-size: 23px;
+    line-height: 2.5rem;
+    margin-bottom: 14px;
+    font-family: ui-monospace;
+    width: 88rem;
+    margin-left: 1rem;
+    text-align: justify;
+    margin-top: 2rem;
+}
+#row-1{
+  margin-left: 74rem;
+    margin-top: -98rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#row-2{
+  margin-left: 74rem;
+    margin-top: -89rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#row-3{
+  margin-left: 74rem;
+  margin-top: -107.8rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+#sundarban-row-1{
+  margin-left: 75rem;
+    margin-top: -77rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#sundarban-row-2{
+  margin-left: 75rem;
+    margin-top: -67rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#sundarban-row-3{
+  margin-left: 75rem;
+    margin-top: -87rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#delhi-row-1{
+  margin-left: 75rem;
+  margin-top: -86rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+#delhi-row-2{
+  margin-left: 75rem;
+    margin-top: -77rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#delhi-row-3{
+  margin-left: 75rem;
+    margin-top: -95rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#himachal-row-1{
+  margin-left: 75rem;
+    margin-top: -97rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#himachal-row-2{
+  margin-left: 75rem;
+    margin-top: -88rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#himachal-row-3{
+  margin-left: 75rem;
+    margin-top: -107rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#uttarakhand-row-1{
+  margin-left: 50rem;
+  margin-top: -17rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+#uttarakhand-row-2{
+  margin-left: 72rem;
+  margin-top: -17rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+#uttarakhand-row-3{
+  margin-left: 61rem;
+  margin-top: -17rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+.uttarakhand-img1{
+  width: 6rem;
+    margin-left: 65rem;
+}
+.uttarakhand-li1{
+  margin-top: -23rem;
+    position: absolute;
+    margin-left: -16rem;
+}
+.uttarakhand-img2{
+  width: 9rem;
+    margin-left: 78rem;
+}
+.uttarakhand-li2{
+  margin-top: -25rem;
+  position: absolute;
+  margin-left: -18rem;
+}
+.uttarakhand-img3{
+  width: 6rem;
+    margin-left: 71rem;
+}
+.uttarakhand-li3{
+  margin-top: -23rem;
+  position: absolute;
+}
+#f6{
+  margin-top: 1rem;
+  color: coral;
+  box-shadow: 0 0 20px #c3690380;
+  width: 100%;
+  background-color: antiquewhite ;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+
+/* kashmir Page End Here ---------------------------------- */
+/* Bookingfrom Page Start Here ---------------------------------- */
+
+#bookfrom-f9{
+  margin-left: 92rem;
+    margin-top: -7vh;
+    font-size: 31px;
+}
+#bookfrom-logo{
+  width: 9rem;
+    margin-left: 24rem;
+    margin-top: -2rem;
+}
+/* Bookingfrom Page End Here ---------------------------------- */
+
+
